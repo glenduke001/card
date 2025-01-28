@@ -1,7 +1,7 @@
-// Selecciona el contenedor de fotos flotantes
+
 const photoContainer = document.getElementById('heart-container');
 
-// Array de imágenes de momentos especiales (usando imágenes locales)
+
 const photos = [
   'images/foto1.jpg',
   'images/foto7.jpg',
@@ -11,10 +11,10 @@ const photos = [
   'images/foto6.jpg',
 ];
 
-// Función para generar fotos flotantes
+
 function createPhoto() {
-  const photo = document.createElement('div'); // Crea un contenedor de foto
-  photo.classList.add('floating-photo'); // Añade la clase para las fotos flotantes
+  const photo = document.createElement('div'); 
+  photo.classList.add('floating-photo'); 
 
   // Asigna una imagen aleatoria del array de fotos
   const randomPhoto = photos[Math.floor(Math.random() * photos.length)];
